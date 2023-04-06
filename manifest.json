@@ -4,6 +4,11 @@
     "description": "tracks and distracts",
     "manifest_version": 2,
     "author": "Wayland and Richard",
+    "browser_action": {
+    
+        "default_title": "eyeSpye",  
+        "default_popup": "index.html"    
+      },
     "action": {"default_popup": "index.html"},
     "content_scripts" : [
         {        
